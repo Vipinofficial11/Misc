@@ -15,6 +15,7 @@ echo "INFO-----------------------"
 sudo apt install apt-transport-https ca-certificates wget dirmngr gnupg software-properties-common -y
 wget -qO - https://adoptopenjdk.jfrog.io/adoptopenjdk/api/gpg/key/public | sudo apt-key add -
 sudo add-apt-repository --yes https://adoptopenjdk.jfrog.io/adoptopenjdk/deb/
+apt-get update
 sudo apt install adoptopenjdk-8-hotspot -y
 
 echo "INFO-----------------------"
