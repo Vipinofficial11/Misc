@@ -11,6 +11,10 @@ echo "Python version"
 python3 --version
 echo "INFO-----------------------"
 
+#Donwload yaml
+sudo apt install python3-pip
+sudo pip3 install PyYAML
+
 # Download and install java8
 sudo apt install apt-transport-https ca-certificates wget dirmngr gnupg software-properties-common -y
 wget -qO - https://adoptopenjdk.jfrog.io/adoptopenjdk/api/gpg/key/public | sudo apt-key add -
